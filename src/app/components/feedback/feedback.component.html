@@ -1,136 +1,140 @@
 <div class="body">
 
     <ng-template [ngIf]="page == 'two'">
-        <h2>Journey Feedback Form</h2>
-        <div class="detail">
-            <h2>Service Assignment Details</h2>
-            <form class="row g-3">
-                <div class="col-md-6">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Service Assignment ID</span>
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        <div class="animate"    @bounce >
+            <h2>Journey Feedback Form</h2>
+            <div class="detail">
+                <h2>Service Assignment Details</h2>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">Service Assignment ID</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Service Assigned</span>
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">Service Assigned</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Pick-up Location</span>
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+    
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">Pick-up Location</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Drop-off Location</span>
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">Drop-off Location</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Pick-up Time</span>
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">Pick-up Time</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Journey Start Date</span>
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">Journey Start Date</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Pick-up Date</span>
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">Pick-up Date</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon3">Journey Start Time</span>
-                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                    </div>
-                </div>
-            </form>
-        </div>
-
-        <div class="sections">
-            <div class="section1">
-                <h3>Your feedback is very <br> important to us</h3>
-                <img src="/assets/images/Illustration (4) (1).png" alt="" width="50%">
-            </div>
-
-            <div class="section2">
-                <div class="star">
-                    <img src="/assets/images/Rating.png" alt="">
-                </div>
-                <h3>Rate your service experience</h3>
-                <form action="">
-                    <ol>
-                        <li>
-                            <p>
-                                Did you feel safe and comfortable throughout the journey
-                            </p>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" id="inlineCheckbox1" name="gridRadios" value="option1" >
-                                <label class="form-check-label" for="inlineCheckbox1">Yes</label>
-                              </div>
-                              <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" id="inlineCheckbox2" name="gridRadios" value="option2" >
-                                <label class="form-check-label" for="inlineCheckbox2">No</label>
-                              </div>
-                        </li>
-                        <li>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                              </div>
-                        </li>
-                        <li>
-                            <p>On a scale, please rate your overall satisfaction level.</p>
-                            <div >
-                                <div class="images">
-                                    <img src="/assets/images/Smiley face 21.png" alt="" width="5%">
-                                    <img src="/assets/images/Smiley face 21.png" alt="" width="5%">
-                                    <img src="/assets/images/Smiley face 21 (1).png" alt="" width="5%">
-                                    <img src="/assets/images/Smiley face 21 (2).png" alt="" width="5%">
-                                    <img src="/assets/images\Smiley face 21 (3).png" alt="" width="5%">
-                                    <img src="/assets/images\Smiley face 21 (4).png" alt="" width="5%">
-                                </div>
-                                <input type="range" name="" id="range" step="20">
-                            </div>
-                        </li>
-                        <li>
-                            <p>
-                                On a scale, please let us know if you're likely to recommend Halogen to someone else.
-                            </p>
-                            <div >
-                                <div class="images">
-                                    <img src="/assets/images/Smiley face 21.png" alt="" width="5%">
-                                    <img src="/assets/images/Smiley face 21.png" alt="" width="5%">
-                                    <img src="/assets/images/Smiley face 21 (1).png" alt="" width="5%">
-                                    <img src="/assets/images/Smiley face 21 (2).png" alt="" width="5%">
-                                    <img src="/assets/images\Smiley face 21 (3).png" alt="" width="5%">
-                                    <img src="/assets/images\Smiley face 21 (4).png" alt="" width="5%">
-                                </div>
-                                <input type="range" name="" id="range" step="20">
-                            </div>
-                        </li>
-                    </ol>
-                    <div class="button d-flex justify-content-end">
-                        <button type="button" class="btn btn-primary " (click)="success()">Submit Feedback</button>
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">Journey Start Time</span>
+                            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        </div>
                     </div>
                 </form>
             </div>
+    
+            <div class="sections">
+                <div class="section1">
+                    <h3>Your feedback is very <br> important to us</h3>
+                    <img src="/assets/images/Illustration (4) (1).png" alt="" width="50%">
+                </div>
+    
+                <div class="section2">
+                    <div class="star">
+                        <img src="/assets/images/Rating.png" alt="">
+                    </div>
+                    <h3>Rate your service experience</h3>
+                    <form action="">
+                        <ol>
+                            <li>
+                                <p>
+                                    Did you feel safe and comfortable throughout the journey
+                                </p>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" id="inlineCheckbox1" name="gridRadios" value="option1" >
+                                    <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" id="inlineCheckbox2" name="gridRadios" value="option2" >
+                                    <label class="form-check-label" for="inlineCheckbox2">No</label>
+                                  </div>
+                            </li>
+                            <li>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+                            </li>
+                            <li>
+                                <p>On a scale, please rate your overall satisfaction level.</p>
+                                <div >
+                                    <div class="images">
+                                        <img src="/assets/images/Smiley face 21.png" alt="" width="5%">
+                                        <img src="/assets/images/Smiley face 21.png" alt="" width="5%">
+                                        <img src="/assets/images/Smiley face 21 (1).png" alt="" width="5%">
+                                        <img src="/assets/images/Smiley face 21 (2).png" alt="" width="5%">
+                                        <img src="/assets/images\Smiley face 21 (3).png" alt="" width="5%">
+                                        <img src="/assets/images\Smiley face 21 (4).png" alt="" width="5%">
+                                    </div>
+                                    <input type="range" name="" id="range" step="20">
+                                </div>
+                            </li>
+                            <li>
+                                <p>
+                                    On a scale, please let us know if you're likely to recommend Halogen to someone else.
+                                </p>
+                                <div >
+                                    <div class="images">
+                                        <img src="/assets/images/Smiley face 21.png" alt="" width="5%">
+                                        <img src="/assets/images/Smiley face 21.png" alt="" width="5%">
+                                        <img src="/assets/images/Smiley face 21 (1).png" alt="" width="5%">
+                                        <img src="/assets/images/Smiley face 21 (2).png" alt="" width="5%">
+                                        <img src="/assets/images\Smiley face 21 (3).png" alt="" width="5%">
+                                        <img src="/assets/images\Smiley face 21 (4).png" alt="" width="5%">
+                                    </div>
+                                    <input type="range" name="" id="range" step="20">
+                                </div>
+                            </li>
+                        </ol>
+                        <div class="button d-flex justify-content-end">
+                            <button type="button" class="btn btn-primary " (click)="success()">Submit Feedback</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
         </div>
+       
     </ng-template>
 
     <ng-template [ngIf]="page == 'three'">
 
-        <div class="success">
+        <div class="success" @bounce>
             <h2>Journey Feedback Form</h2>
             <h2>Feedback Successfully submitted</h2>
         </div>
@@ -138,9 +142,9 @@
     </ng-template>
     
     <ng-template [ngIf]="page == 'one'">
-        <div class="intro">
+        <div class="intro" @bounce>
             <h2>Journey Feedback Form</h2>
-            <p>Thank you for choosing Halogen as your safety travel security carrier, Please help us to serve you better by filling out our feedback form below.</p>
+            <p>Thank you for choosing Halogen as your safety travel security carrier, Please help us to serve you better by filling out our feedback form below &#128077;.</p>
             <button class="btn btn-primary" (click)="rate()">Proceed with Providing Feedback &#62;&#62;</button>
 
         </div>

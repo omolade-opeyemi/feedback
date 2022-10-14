@@ -1,0 +1,29 @@
+
+nav{
+    background-color:#FFFFFF;
+    position: sticky;
+    padding: 0.2rem;
+    width: 100%;
+    padding-right: 8%;
+    overflow: hidden;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.2);
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.navbar-brand img{
+    height: 9vh;
+}
+
+@media  (max-width : 700px) {
+    .navbar{
+        min-height: 10vh !important;
+    }
+   
+  }

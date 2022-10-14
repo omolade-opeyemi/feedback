@@ -7,12 +7,14 @@ import { FeedbackComponent } from './components/feedback/feedback.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSliderModule} from '@angular/material/slider';
+import { HeaderComponent } from './components/header/header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -23,5 +25,6 @@ import {MatSliderModule} from '@angular/material/slider';
   ],
   providers: [],
   bootstrap: [AppComponent]
+  
 })
 export class AppModule { }
